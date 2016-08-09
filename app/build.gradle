@@ -23,4 +23,6 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.1.1'
+    // Android6.0权限管理
+    compile 'com.tbruyelle.rxpermissions:rxpermissions:0.7.0@aar'
 }

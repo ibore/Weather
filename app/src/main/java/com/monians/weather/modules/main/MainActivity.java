@@ -1,9 +1,11 @@
-package com.monians.weather;
+package com.monians.weather.modules.main;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.monians.weather.R;
+import com.monians.weather.base.BaseActivity;
+
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
